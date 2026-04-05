@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  test-mock:
+    build: .
+    volumes:
+      - ./:.app
+
+    command: python app.py
