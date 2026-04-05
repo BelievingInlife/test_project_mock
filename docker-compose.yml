@@ -4,6 +4,6 @@ services:
   test-mock:
     build: .
     volumes:
-      - ./:.app
+      - ./:/app
 
     command: python app.py
