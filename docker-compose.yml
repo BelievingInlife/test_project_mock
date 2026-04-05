@@ -3,6 +3,7 @@ version: "3"
 services:
   test-mock:
     build: .
+    container_name: tset_mock
     volumes:
       - ./:/app
 
