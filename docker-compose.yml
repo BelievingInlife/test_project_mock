@@ -3,7 +3,7 @@ version: "3"
 services:
   test-mock:
     build: .
-    container_name: tset_mock
+    container_name: test_mock
     ports:
       - "5000:5000"
     networks:
